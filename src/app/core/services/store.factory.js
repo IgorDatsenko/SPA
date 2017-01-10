@@ -6,7 +6,8 @@ export default function (app) {
 
         function storeFactory () {
             return {
-                "countries": ["USA", "UK", "Ukraine"]
+                "months": ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+                "monthsSh": ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec']
             };
         }
 }
