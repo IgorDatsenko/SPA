@@ -12,7 +12,7 @@ import "./index.module";
 import "../assets/styles/sass/index.scss";
 
 angular.element(document).ready(function () {
-  angular.bootstrap(document, ['spa-anular-app'], {
+  angular.bootstrap(document, ['spa-angular-app'], {
     strictDi: true
   });
 });

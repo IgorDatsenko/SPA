@@ -6,7 +6,7 @@ import * as run from './index.run';
 
 
 const App = angular.module(
-  "spa-anular-app", [
+  "spa-angular-app", [
     // plugins
     require('angular-ui-router'),
     "ngAnimate", 
@@ -14,9 +14,7 @@ const App = angular.module(
 	"ngTouch", 
 	"ngSanitize", 
 	"ngMessages", 
-	"ngAria", 
-	"ngResource", 
-	"oc.lazyLoad",
+	"ngAria",
 
     // core
     require("./core/core.module").name,
